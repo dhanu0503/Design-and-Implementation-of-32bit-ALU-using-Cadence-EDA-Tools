@@ -1,4 +1,4 @@
-## Design-and-Implementation-of-32bit-ALU-using-Cadence-EDA-Tools
+## Ex No: 03 -Design-and-Implementation-of-32bit-ALU-using-Cadence-EDA-Tools
 
 ### Aim:
 
