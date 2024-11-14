@@ -17,7 +17,8 @@
  
 ![377364811-e574788c-253f-46da-8468-298fe2844f7a](https://github.com/user-attachments/assets/cca256ff-d041-492a-a9f6-727285225597)
 
-### Fig 1 : Block Diagram of 32 Bit ALU
+
+### <p align="center"> Fig 1 : Block Diagram of 32 Bit ALU
 
 ### Creating a Work space :
 
@@ -98,7 +99,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 ![WhatsApp Image 2024-10-18 at 20 39 19_d5b548df](https://github.com/user-attachments/assets/00d82d99-227a-496c-ab7d-93e08e8867c2)
 
 
-#### Fig 2 : Invoke the Cadence Environment
+#### <p align="center"> Fig 2 : Invoke the Cadence Environment
 
 #### To Launch Simulation tool
 -	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
