@@ -1,16 +1,16 @@
-# Design-and-Implementation-of-32bit-ALU-using-Cadence-EDA-Tools
+## Design-and-Implementation-of-32bit-ALU-using-Cadence-EDA-Tools
 
-## Aim:
+### Aim:
 
 To Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
 
 To Verify the Functionality using Test Bench.
 
-## Tools Required:
+### Tools Required:
 
    Functional Simulation: Incisive Simulator (ncvlog, ncelab, ncsim)
    
-## Design Information and Bock Diagram:
+### Design Information and Bock Diagram:
 
 -	The ALU will take in two 32-bit values, and control line. An Arithmetic unit does the following task like addition subtraction, multiplication and logical operations.
 
@@ -20,11 +20,11 @@ To Verify the Functionality using Test Bench.
 
 ### Fig 1 : Block Diagram of 32 Bit ALU
 
-## Creating a Work space :
+### Creating a Work space :
 
 -	Create a folder in your name (Note: Give folder name without any space) and Create a new sub-Directory name it as Exp2 or counter_design for the Design and open a terminal from the Sub-Directory.
 
-### Creating Source Codes
+#### Creating Source Codes
 
 In the Terminal, type gedit .v (ex: gedit alu_32bit.v).
 
@@ -32,9 +32,9 @@ A Blank Document opens up into which the following source code can be typed down
 
 (Note : File name should be with HDL Extension)
 
-### a)To Verify the Functionality using Test Bench
+#### a)To Verify the Functionality using Test Bench
 
-### Source Code – Using Case Statement :
+#### Source Code – Using Case Statement :
 
     module alu_32bit_case(y,a,b,f);
     input [31:0]a;
@@ -58,11 +58,11 @@ A Blank Document opens up into which the following source code can be typed down
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
 
-### Creating Test bench:
+#### Creating Test bench:
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
-### Test Bench :
+#### Test Bench :
 
     module alu_32bit_tb_case;
     reg [31:0]a;
@@ -85,7 +85,7 @@ Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.v
 
 Use Save option or Ctrl+S to save the code or click on the save option from the top most right corner and close the text file.
   
-### Functional Simulation: 
+#### Functional Simulation: 
 
 -	Invoke the cadence environment by type the below commands 
 
@@ -99,9 +99,9 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 ![WhatsApp Image 2024-10-18 at 20 39 19_d5b548df](https://github.com/user-attachments/assets/00d82d99-227a-496c-ab7d-93e08e8867c2)
 
 
-### Fig 2 : Invoke the Cadence Environment
+#### Fig 2 : Invoke the Cadence Environment
 
-### To Launch Simulation tool
+#### To Launch Simulation tool
 -	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
 
 -	linux:/> nclaunch&                 // On subsequent calls to NCVERILOG
@@ -110,7 +110,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ![WhatsApp Image 2024-10-04 at 09 37 15_b162e691](https://github.com/user-attachments/assets/98b7459b-2d98-4c27-a3e4-9455e70fa699)
 
-### Fig 3 : Setting Multi-step simulation
+#### Fig 3 : Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -118,7 +118,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-04 at 09 42 37_f2a1a660](https://github.com/user-attachments/assets/4fec84f0-8930-4332-8336-7c85cc336814)
 
-### Fig 4 : cds.lib file Creation
+#### Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -128,7 +128,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-04 at 09 37 15_413e645d](https://github.com/user-attachments/assets/034a9153-ebfb-4490-a1f5-fa7825f6e84c)
 
-### Fig 5 : Selection of Don’t include any libraries
+#### Fig 5 : Selection of Don’t include any libraries
 
 -	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -142,9 +142,11 @@ To perform the function simulation, the following three steps are involved Compi
 
 ![WhatsApp Image 2024-10-04 at 09 42 39_fe99ab99](https://github.com/user-attachments/assets/28ffa7f1-9313-4b5d-9c0f-7879e2543157)
 
-### Fig 6: Nclaunch Window
-## Step 1: 
-### Compilation:– 
+#### Fig 6: Nclaunch Window
+<br>
+
+### Step 1: 
+#### Compilation:– 
 
     Process to check the correct Verilog language syntax and usage 
 
@@ -152,7 +154,7 @@ To perform the function simulation, the following three steps are involved Compi
 
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
 
-### Steps for compilation:
+#### Steps for compilation:
 
 1. Create work/library directory (most of the latest simulation tools creates automatically)
   
@@ -169,7 +171,7 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
 ![WhatsApp Image 2024-10-04 at 09 42 38_68877bb3](https://github.com/user-attachments/assets/232ff808-6a59-4b43-9ce1-7b453afa8aa2)
 
-### Fig 7 : Compiled database in worklib
+#### Fig 7 : Compiled database in worklib
 
 -	After compilation it will come under worklib you can see in right side window
 
@@ -178,8 +180,8 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
-## Step 2: 
-### Elaboration:– 
+### Step 2: 
+#### Elaboration:– 
     To check the port connections in hierarchical design 
 
 -	Inputs: Top level design / test bench Verilog codes
@@ -200,13 +202,13 @@ It contains statements that map logical library names to their physical director
 
 ![WhatsApp Image 2024-10-04 at 09 42 38_9ae74592](https://github.com/user-attachments/assets/18c76f68-d851-404f-8b1a-83434147ba88)
 
-### Fig 8 : Elaboration database in worklib
+#### Fig 8 : Elaboration database in worklib
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-## Step 3: 
+### Step 3: 
 
-### Simulation:– 
+#### Simulation:– 
     Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 -	Inputs: Compiled and Elaborated top level module name 
@@ -221,16 +223,16 @@ It contains statements that map logical library names to their physical director
 ![WhatsApp Image 2024-10-04 at 09 42 39_b0abc43f](https://github.com/user-attachments/assets/61d5aee2-f1ef-4a90-a81b-8932718ce6c7)
 
 
-### Fig 9 : Design Browser window for simulation
+#### Fig 9 : Design Browser window for simulation
 
 
 ![WhatsApp Image 2024-10-04 at 09 42 39_4bf24070](https://github.com/user-attachments/assets/8dcbfa61-b97a-40d3-9481-79800c8c133f)
 
-### Fig 10 : Simulation Waveform Window
+#### Fig 10 : Simulation Waveform Window
 
 
 ![WhatsApp Image 2024-10-04 at 09 42 40_24e5b590](https://github.com/user-attachments/assets/59ee72ab-28e7-465d-b115-6954c6358551)
 
 
-### Fig 11 : Simulation Waveform Window
+#### Fig 11 : Simulation Waveform Window
 
