@@ -62,6 +62,8 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
 
+<br>
+
 #### Test Bench :
 
     module alu_32bit_tb_case;
@@ -96,7 +98,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
       
 -	After this you can see the window like below
 
-![WhatsApp Image 2024-10-18 at 20 39 19_d5b548df](https://github.com/user-attachments/assets/00d82d99-227a-496c-ab7d-93e08e8867c2)
+![WhatsApp Image 2024-11-15 at 00 08 54_132d561f](https://github.com/user-attachments/assets/3f61f141-6e91-4fda-8d72-a2bc47595358)
 
 
 #### <p align="center"> Fig 2 : Invoke the Cadence Environment
