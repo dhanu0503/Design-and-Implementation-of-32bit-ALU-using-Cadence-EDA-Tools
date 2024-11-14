@@ -2,9 +2,8 @@
 
 ### Aim:
 
-To Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
-
-To Verify the Functionality using Test Bench.
+- To Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
+- To Verify the Functionality using Test Bench.
 
 ### Tools Required:
 
