@@ -224,6 +224,8 @@ Simulate with the given test vectors over a period of time to observe the output
 
 -	Steps for simulation – Run the simulation command with simulator options
 
+<br>
+<br>
 
 ![WhatsApp Image 2024-10-04 at 09 42 39_b0abc43f](https://github.com/user-attachments/assets/61d5aee2-f1ef-4a90-a81b-8932718ce6c7)
 
@@ -235,7 +237,8 @@ Simulate with the given test vectors over a period of time to observe the output
 
 #### <p align="center"> Fig 10 : Simulation Waveform Window
 
-
+<br>
+<br>
 ![WhatsApp Image 2024-10-04 at 09 42 40_24e5b590](https://github.com/user-attachments/assets/59ee72ab-28e7-465d-b115-6954c6358551)
 
 
