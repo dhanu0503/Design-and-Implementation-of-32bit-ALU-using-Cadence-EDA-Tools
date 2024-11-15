@@ -18,7 +18,7 @@
 ![377364811-e574788c-253f-46da-8468-298fe2844f7a](https://github.com/user-attachments/assets/cca256ff-d041-492a-a9f6-727285225597)
 
 
-### <p align="center"> Fig 1 : Block Diagram of 32 Bit ALU
+#### <p align="center"> Fig 1 : Block Diagram of 32 Bit ALU
 
 ### Creating a Work space :
 
@@ -26,9 +26,9 @@
 
 #### Creating Source Codes
 
-In the Terminal, type gedit .v (ex: gedit alu_32bit.v).
+- In the Terminal, type gedit .v (ex: gedit alu_32bit.v).
 
-A Blank Document opens up into which the following source code can be typed down.
+- A Blank Document opens up into which the following source code can be typed down.
 
 (Note : File name should be with HDL Extension)
 
@@ -61,8 +61,6 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 #### Creating Test bench:
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
-
-<br>
 
 #### Test Bench :
 
@@ -112,7 +110,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ![WhatsApp Image 2024-10-04 at 09 37 15_b162e691](https://github.com/user-attachments/assets/98b7459b-2d98-4c27-a3e4-9455e70fa699)
 
-#### Fig 3 : Setting Multi-step simulation
+#### <p align="center"> Fig 3 : Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -120,7 +118,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-04 at 09 42 37_f2a1a660](https://github.com/user-attachments/assets/4fec84f0-8930-4332-8336-7c85cc336814)
 
-#### Fig 4 : cds.lib file Creation
+#### <p align="center"> Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -144,7 +142,7 @@ To perform the function simulation, the following three steps are involved Compi
 
 ![WhatsApp Image 2024-10-04 at 09 42 39_fe99ab99](https://github.com/user-attachments/assets/28ffa7f1-9313-4b5d-9c0f-7879e2543157)
 
-#### Fig 6: Nclaunch Window
+#### <p align="center"> Fig 6: Nclaunch Window
 <br>
 
 ### Step 1: 
