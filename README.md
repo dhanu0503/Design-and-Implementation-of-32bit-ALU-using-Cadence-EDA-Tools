@@ -160,11 +160,11 @@ Process to check the correct Verilog language syntax and usage
 
 #### Steps for compilation:
 
-1. Create work/library directory (most of the latest simulation tools creates automatically)
+&emsp;1. Create work/library directory (most of the latest simulation tools creates automatically)
   
-2. Map the work to library created (most of the latest simulation tools creates automatically)
+&emsp;2. Map the work to library created (most of the latest simulation tools creates automatically)
   
-3. Run the compile command with compile options
+&emsp;3. Run the compile command with compile options
 
 _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
@@ -194,15 +194,15 @@ To check the port connections in hierarchical design
 
 -	Steps for elaboration – Run the elaboration command with elaborate options 
 
-1.	It builds the module hierarchy
+&emsp;&emsp;1.	It builds the module hierarchy
 	
-2.	Binds modules to module instances
+&emsp;&emsp;2.	Binds modules to module instances
   
-3.	Computes parameter values
+&emsp;&emsp;3.	Computes parameter values
   
-4.	Checks for hierarchical names conflicts
+&emsp;&emsp;4.	Checks for hierarchical names conflicts
   
-5.	It also establishes net connectivity and prepares all of this for simulation
+&emsp;&emsp;5.	It also establishes net connectivity and prepares all of this for simulation
 
 ![WhatsApp Image 2024-10-04 at 09 42 38_9ae74592](https://github.com/user-attachments/assets/18c76f68-d851-404f-8b1a-83434147ba88)
 
@@ -239,6 +239,7 @@ Simulate with the given test vectors over a period of time to observe the output
 
 <br>
 <br>
+
 ![WhatsApp Image 2024-10-04 at 09 42 40_24e5b590](https://github.com/user-attachments/assets/59ee72ab-28e7-465d-b115-6954c6358551)
 
 
