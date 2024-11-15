@@ -104,7 +104,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 ![WhatsApp Image 2024-11-15 at 00 08 54_132d561f](https://github.com/user-attachments/assets/3f61f141-6e91-4fda-8d72-a2bc47595358)
 
 
-#### <p align="center"> Fig 2 : Invoke the Cadence Environment
+#### &emsp;&emsp;&emsp; Fig 2 : Invoke the Cadence Environment
 
 #### To Launch Simulation tool
 -	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
@@ -115,7 +115,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ![WhatsApp Image 2024-10-04 at 09 37 15_b162e691](https://github.com/user-attachments/assets/98b7459b-2d98-4c27-a3e4-9455e70fa699)
 
-#### Fig 3 : Setting Multi-step simulation
+#### &emsp;&emsp;&emsp;&emsp;Fig 3 : Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -123,7 +123,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-04 at 09 42 37_f2a1a660](https://github.com/user-attachments/assets/4fec84f0-8930-4332-8336-7c85cc336814)
 
-#### Fig 4 : cds.lib file Creation
+#### &emsp;&emsp;&emsp; Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
