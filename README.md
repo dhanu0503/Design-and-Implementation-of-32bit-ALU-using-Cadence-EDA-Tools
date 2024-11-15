@@ -61,7 +61,8 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 #### Creating Test bench:
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
-
+<br>
+<br>
 <br>
 <br>
 <br>
