@@ -106,6 +106,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 ![WhatsApp Image 2024-11-15 at 10 29 16_1acaab4a](https://github.com/user-attachments/assets/1d29a451-e155-4dfc-b4e6-c69ce9f0ae0a)
 
 #### &emsp;&emsp;&emsp; Fig 2 : Invoke the Cadence Environment
+<br>
 
 #### To Launch Simulation tool
 -	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
