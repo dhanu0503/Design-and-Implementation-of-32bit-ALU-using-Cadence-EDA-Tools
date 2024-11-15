@@ -1,5 +1,4 @@
-## Ex No: 03 -Design-and-Implementation-of-32bit-ALU-using-Cadence-EDA-Tools
-
+## Ex No: 03 -Design-and-Implementation-of-32bit-ALU-nclaunch-Simulator-in-Cadence-EDA-Tools
 ### Aim:
 
 - To Write a verilog code for 32 bit ALU supporting four logical and four arithmetic operations,use case statement and if statement for ALU behavioral modeling.
@@ -245,3 +244,7 @@ Simulate with the given test vectors over a period of time to observe the output
 
 #### <p align="center"> Fig 11 : Simulation Waveform Window
 
+<br>
+
+### Result:
+The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
