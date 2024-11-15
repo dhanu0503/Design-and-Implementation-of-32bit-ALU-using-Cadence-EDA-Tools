@@ -103,8 +103,7 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
       
 -	After this you can see the window like below
 
-![WhatsApp Image 2024-11-15 at 00 08 54_132d561f](https://github.com/user-attachments/assets/3f61f141-6e91-4fda-8d72-a2bc47595358)
-
+![WhatsApp Image 2024-11-15 at 10 29 16_1acaab4a](https://github.com/user-attachments/assets/1d29a451-e155-4dfc-b4e6-c69ce9f0ae0a)
 
 #### &emsp;&emsp;&emsp; Fig 2 : Invoke the Cadence Environment
 
