@@ -150,15 +150,12 @@ To perform the function simulation, the following three steps are involved Compi
 ![WhatsApp Image 2024-10-04 at 09 42 39_fe99ab99](https://github.com/user-attachments/assets/28ffa7f1-9313-4b5d-9c0f-7879e2543157)
 
 #### <p align="center"> Fig 6: Nclaunch Window
-<br>
-
 ### Step 1: 
 #### Compilation:– 
 
     Process to check the correct Verilog language syntax and usage 
 
 -	Inputs: Supplied are Verilog design and test bench codes 
-
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
 
 #### Steps for compilation:
@@ -175,7 +172,6 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
  -- Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
-
 ![WhatsApp Image 2024-10-04 at 09 42 38_68877bb3](https://github.com/user-attachments/assets/232ff808-6a59-4b43-9ce1-7b453afa8aa2)
 
 #### <p align="center"> Fig 7 : Compiled database in worklib
@@ -186,6 +182,7 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
 -	The cds.lib file is an ASCII text file. It defines which libraries are accessible and where they are located.
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
+
 
 ### Step 2: 
 #### Elaboration:– 
