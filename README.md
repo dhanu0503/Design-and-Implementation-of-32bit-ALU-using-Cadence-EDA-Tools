@@ -18,7 +18,7 @@
 ![377364811-e574788c-253f-46da-8468-298fe2844f7a](https://github.com/user-attachments/assets/cca256ff-d041-492a-a9f6-727285225597)
 
 
-#### <p align="center"> Fig 1 : Block Diagram of 32 Bit ALU
+#### Fig 1 : Block Diagram of 32 Bit ALU
 
 ### Creating a Work space :
 
@@ -61,6 +61,11 @@ Use Save option or Ctrl+S to save the code or click on the save option from the 
 #### Creating Test bench:
 
 Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (alu_32bit_tb_case).
+
+<br>
+<br>
+<br>
+<br>
 
 #### Test Bench :
 
@@ -110,7 +115,7 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ![WhatsApp Image 2024-10-04 at 09 37 15_b162e691](https://github.com/user-attachments/assets/98b7459b-2d98-4c27-a3e4-9455e70fa699)
 
-#### <p align="center"> Fig 3 : Setting Multi-step simulation
+#### Fig 3 : Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
@@ -118,7 +123,7 @@ Click the cds.lib file and save the file by clicking on Save option
 
 ![WhatsApp Image 2024-10-04 at 09 42 37_f2a1a660](https://github.com/user-attachments/assets/4fec84f0-8930-4332-8336-7c85cc336814)
 
-#### <p align="center"> Fig 4 : cds.lib file Creation
+#### Fig 4 : cds.lib file Creation
 
 -	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
