@@ -176,7 +176,7 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 
 ![WhatsApp Image 2024-10-04 at 09 42 38_68877bb3](https://github.com/user-attachments/assets/232ff808-6a59-4b43-9ce1-7b453afa8aa2)
 
-#### Fig 7 : Compiled database in worklib
+#### <p align="center"> Fig 7 : Compiled database in worklib
 
 -	After compilation it will come under worklib you can see in right side window
 
@@ -207,7 +207,7 @@ It contains statements that map logical library names to their physical director
 
 ![WhatsApp Image 2024-10-04 at 09 42 38_9ae74592](https://github.com/user-attachments/assets/18c76f68-d851-404f-8b1a-83434147ba88)
 
-#### Fig 8 : Elaboration database in worklib
+#### <p align="center"> Fig 8 : Elaboration database in worklib
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
@@ -228,12 +228,12 @@ It contains statements that map logical library names to their physical director
 ![WhatsApp Image 2024-10-04 at 09 42 39_b0abc43f](https://github.com/user-attachments/assets/61d5aee2-f1ef-4a90-a81b-8932718ce6c7)
 
 
-#### Fig 9 : Design Browser window for simulation
+####  <p align="center"> Fig 9 : Design Browser window for simulation
 
 
 ![WhatsApp Image 2024-10-04 at 09 42 39_4bf24070](https://github.com/user-attachments/assets/8dcbfa61-b97a-40d3-9481-79800c8c133f)
 
-#### Fig 10 : Simulation Waveform Window
+#### <p align="center"> Fig 10 : Simulation Waveform Window
 
 
 ![WhatsApp Image 2024-10-04 at 09 42 40_24e5b590](https://github.com/user-attachments/assets/59ee72ab-28e7-465d-b115-6954c6358551)
