@@ -18,7 +18,7 @@
 ![377364811-e574788c-253f-46da-8468-298fe2844f7a](https://github.com/user-attachments/assets/cca256ff-d041-492a-a9f6-727285225597)
 
 
-#### Fig 1 : Block Diagram of 32 Bit ALU
+#### &emsp;&emsp;&emsp;&emsp; Fig 1 : Block Diagram of 32 Bit ALU
 
 ### Creating a Work space :
 
@@ -239,5 +239,5 @@ It contains statements that map logical library names to their physical director
 ![WhatsApp Image 2024-10-04 at 09 42 40_24e5b590](https://github.com/user-attachments/assets/59ee72ab-28e7-465d-b115-6954c6358551)
 
 
-#### Fig 11 : Simulation Waveform Window
+#### <p align="center"> Fig 11 : Simulation Waveform Window
 
