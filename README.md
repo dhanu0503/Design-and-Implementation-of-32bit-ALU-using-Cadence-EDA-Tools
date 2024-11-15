@@ -150,10 +150,10 @@ To perform the function simulation, the following three steps are involved Compi
 ![WhatsApp Image 2024-10-04 at 09 42 39_fe99ab99](https://github.com/user-attachments/assets/28ffa7f1-9313-4b5d-9c0f-7879e2543157)
 
 #### <p align="center"> Fig 6: Nclaunch Window
-### Step 1: 
+#### Step 1: 
 #### Compilation:– 
 
-    Process to check the correct Verilog language syntax and usage 
+Process to check the correct Verilog language syntax and usage 
 
 -	Inputs: Supplied are Verilog design and test bench codes 
 -	Outputs: Compiled database created in mapped library if successful, generates report else error reported in log file 
@@ -184,9 +184,9 @@ _(i.e) Cadence IES command for compile: ncverilog +access+rwc -compile fa.v_
 It contains statements that map logical library names to their physical directory paths. For this Design, you will define a library called “worklib”
 
 
-### Step 2: 
+#### Step 2: 
 #### Elaboration:– 
-    To check the port connections in hierarchical design 
+To check the port connections in hierarchical design 
 
 -	Inputs: Top level design / test bench Verilog codes
 
@@ -210,10 +210,11 @@ It contains statements that map logical library names to their physical director
     
 -	After elaboration the file will come under snapshot. Select the test bench and simulate it. 
 
-### Step 3: 
+#### Step 3: 
 
 #### Simulation:– 
-    Simulate with the given test vectors over a period of time to observe the output behaviour. 
+
+Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 -	Inputs: Compiled and Elaborated top level module name 
 
